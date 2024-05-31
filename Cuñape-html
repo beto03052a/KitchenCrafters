@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majadito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="IMAGENES COMIDAS/menurayas.png" class= "menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Misión.html">Objetivos</a></li>
+                    <li><a href="Clases.html">Clases</a></li>
+                    <li><a href="#reservas">Reservas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="product container">
+        <div class="product-content">
+            <div class="product-1">
+                <img src="IMAGENES COMIDAS/CUÑAPE.jpg" alt="">
+                <div class="product-txt">
+                </div>
+            </div>
+            </div>
+            <div class="product-1">
+                <ul class="ingredientes">
+                    <h3>Ingredientes:</h3>
+                    <li>- 2 tazas de almidón de yuca (400 gr)</li>
+                    <li>- 2 tazas de queso criollo (400 gr) </li>
+                    <li>- 2 huevos</li>
+                    <li>- 70 ml de leche</li>
+                    <li>- 2 1/2 cucharadas de mantequilla (30 gr)</li>
+                    <li>- 2 cucharadas de polvo de hornear (25 gramos)</li>
+                    <h3>Preparación:</h3>
+                    <li>- En un bol grande colocar el almidón, el polvo de hornear y el queso rallado. Mezclar con la mano y agregar los huevos uno a uno, mezclando hasta integrar todo muy bien </li>
+                    <li>- Luego agregar la mantequilla derretida, mezclar nuevamente e ir agregando poco a poco la leche hasta que la masa tenga una consistencia terrosa</li>
+                    <li>- La masa no debe quedar húmeda y cremosa, sino más bien algo seca pero que se puedan formar bolitas sin deshacerse</li>
+                    <li>- Para esto no será necesario amasar, sino más bien mezclar bien con las manos hasta que todo sea unifique</li>
+                    <li>- Una vez lista la masa formar bolitas de 5 cm de diámetro aproximadamente. Con el dedo apretar ligeramente la superficie de la bolita y colocar este lado hacia abajo.</li>
+                    <li>- Hornear los cuñapés en una charola previamente engrasada o forrada con papel mantequilla a 180 C durante 12 minutos aproximadamente o hasta que luzcan dorados por encima</li>
+                    <li>- Retirar del horno y disfrutar calientes</li>
+                    <h3>Consejos:</h3>
+                    <li>- Utiliza un queso de calidad, que estire mucho para obtener esa consistencia chiclosa y sabrosa característica de un buen cuñapé</li>
+                    <li>- No amases la masa, pues podrían quedar duros. Es mejor simplemente mezclar hasta que se integren todos los ingredientes</li>
+                    <li>- La proporción perfecta de un cuñapé es usar la misma cantidad de queso que de almidón de yuca</li>
+                    <h3>Tiempo de preparación:</h3>
+                    <li>- 3o minutos</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer container">
+        <div class="footer-top">
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Objetivos</a></li>
+                    <li><a href="#">Clases</a></li>
+                    <li><a href="#">Reservas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: Comidatipica@gmail.com</p>
+                <p>HACE TU RESERVA!!:  + 591 78485883 </p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61558724288985&mibextid=ZbWKwL"><img src="IMAGENES COMIDAS/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.tiktok.com/@kitchen.crafters5?_t=8mnNv0aYS2g&_r=1"><img src="IMAGENES COMIDAS/tik.jpg" alt="TikTok"></a>
+                    <a href="https://www.instagram.com/kitchencrafters9?igsh=dW1ieDd0aHE2aTA4"><img src="IMAGENES COMIDAS/png-clipart-instagram-logo-icon-others-text-photography.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tu Página. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
