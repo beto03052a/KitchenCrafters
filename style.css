@@ -37,7 +37,7 @@ img {
 }
 
 .header {
-    background-image: url(https://www.latinoamericaviajes.com/wp-content/uploads/2019/05/plaza-1280x850.jpg);
+    background-image: url(IMAGENES\ COMIDAS/plaza3.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +122,7 @@ float: left;
 
 .header-txt h1 {
     font-size: 60px;
-    color: darkgreen;
+    color: #FF5A2C;
     border: 2px solid #FFFFFF;
     line-height: 1.6; 
     margin-bottom: 25px;
@@ -293,7 +293,7 @@ h2 {
         padding:0px;
     }
     .menu-icono {
-        width: 100px; /* Incrementa el tamaño del icono del menú */
+        width: 50px; /* Incrementa el tamaño del icono del menú */
         cursor: pointer;
     }
     .menu label {
@@ -332,7 +332,7 @@ h2 {
         display: block;
         cursor: pointer;
         position: absolute;
-        right: 550px; 
+        right: 150px; 
     }
     
 }
@@ -351,4 +351,17 @@ h2 {
         list-style: none;
         left: 50px;
     }
+    .menu-icono {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 330px; 
+    }
+    .navbar ul li {
+        list-style: none;
+        left: 10px;
+        padding: 15px;
+        margin: -22px;
+    }
+    
 }
