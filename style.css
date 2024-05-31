@@ -292,10 +292,6 @@ h2 {
     .menu {
         padding:0px;
     }
-    .menu-icono {
-        width: -150px; /* Incrementa el tamaño del icono del menú */
-        cursor: pointer;
-    }
     .menu label {
         display: initial;
     }
@@ -305,7 +301,6 @@ h2 {
         left:0;
         right:0;
         background-color: darkolivegreen;
-        display: none;
     }
     #menu:checked ~ .navbar {
         display: initial;
@@ -350,12 +345,6 @@ h2 {
     .navbar ul li {
         list-style: none;
         left: 50px;
-    }
-    .menu-icono {
-        display: block;
-        cursor: pointer;
-        position: absolute;
-        left: 150px; 
     }
     .navbar ul li {
         list-style: none;
