@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: papayawhip;
+    line-height: 1.8; 
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.Objetivos{
+    display: flex;
+}
+
+.txt-1{
+    margin: 0px 15px;
+    text-align: center;
+    line-height: 2; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(IMAGENES\ COMIDAS/plaza3.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+    line-height: 2; 
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 00px;
+    right: 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    line-height: 2;
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    left: 500px;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    left: 500px;
+}
+
+.navbar ul li {
+    list-style: none;
+    left: 900px;
+}
+.menu .navbar ul li {
+position: relative;
+float: left;
+
+}
+.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: block;  
+    line-height: 2; 
+}
+
+.navbar ul li a:hover {
+    color: #FF5A2C;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    line-height: 2; 
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: darkgreen;
+    border: 2px solid #FFFFFF;
+    line-height: 1.6; 
+    margin-bottom: 25px;
+}s
+
+.header-txt span {
+    color: #FF5A2C;
+}
+
+.header-txt p {
+    color: darkolivegreen;
+    background-color: rgba(280, 280, 280, 0.8);
+    line-height: 2.0; 
+    font-weight: bold; 
+    margin: 50px auto;
+}
+
+.butons {
+    display: flex;
+}
+
+.btn-1, .btn-2, .btn-3 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #FF5A2C;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #FF5A2C;
+    line-height: 2; 
+}
+
+.navbar ul li a.btn-register {
+    background-color: #FF5A2C; 
+    border: 2px solid transparent; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    line-height: 2; 
+}
+
+.navbar ul li a.btn-register:hover {
+    background-color: transparent; 
+    color: #FFFFFF; 
+    border-color: #FFFFFF; 
+    line-height: 2; 
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    line-height: 2; 
+}
+
+.btn-1:hover {
+    background-color: #FF5A2C;
+    color: #FFFFFF; 
+}
+
+.centered {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2; 
+}
+
+h2 {
+    color: #000; 
+    text-align: left; 
+    line-height: 1.6; 
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    line-height: 2; 
+}
+
+.product-1 {
+    text-align: center; 
+    margin: 20px 0; 
+    line-height: 2; 
+}
+
+.product-1 img {
+    max-width: 80%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    width: 1500px;
+}
+
+.product-1 h3 {
+    color: #000;
+    font-weight: bold; 
+    line-height: 1.6; 
+}
+
+.ingredientes {
+    text-align: left;
+    line-height: 2; 
+}
+.footer {
+    background-color: #FF5A2C;
+    color: #fff;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #FF5A2C;
+}
+
+.social-media-icons img {
+    width: 60px;
+    height: 50px;
+    margin-right: 0px;
+    transition: transform 0.3s;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding:0px;
+    }
+    .menu-icono {
+        width: 100px; /* Incrementa el tamaño del icono del menú */
+        cursor: pointer;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background-color: darkolivegreen;
+        display: none;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+    .header-txt {
+        text-align:center;
+        flex-basis: 100%;
+    }
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    .butons {
+        justify-content: center;
+    }
+    .btn-1:last-of-type {
+        margin-right: 0;
+    }
+    .menu-icono {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 550px; 
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .navbar ul li {
+        list-style: none;
+        left: 50px;
+    }
+}
