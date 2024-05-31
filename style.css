@@ -293,7 +293,7 @@ h2 {
         padding:0px;
     }
     .menu-icono {
-        width: 50px; /* Incrementa el tamaño del icono del menú */
+        width: 10px; /* Incrementa el tamaño del icono del menú */
         cursor: pointer;
     }
     .menu label {
